@@ -1,0 +1,1220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
+    <link href="assets/images/favicon.png" rel="icon" />
+    <title>Documentation | Your ThemeForest item Name</title>
+    <meta name="description" content="Your ThemeForest item Name and description">
+    <meta name="author" content="harnishdesign.net">
+
+    <!-- Stylesheet
+    ============================== -->
+    <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="assets/vendor/bootstrap/css/bootstrap.min.css" />
+    <!-- Font Awesome Icon -->
+    <link rel="stylesheet" type="text/css" href="assets/vendor/font-awesome/css/all.min.css" />
+    <!-- Magnific Popup -->
+    <link rel="stylesheet" type="text/css" href="assets/vendor/magnific-popup/magnific-popup.min.css" />
+    <!-- Highlight Syntax -->
+    <link rel="stylesheet" type="text/css" href="assets/vendor/highlight.js/styles/github.css" />
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="assets/css/stylesheet.css" />
+</head>
+
+<body data-spy="scroll" data-target=".idocs-navigation" data-offset="125">
+
+<!-- Preloader -->
+<div class="preloader">
+    <div class="lds-ellipsis">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</div>
+<!-- Preloader End -->
+
+<!-- Document Wrapper   
+=============================== -->
+<div id="main-wrapper">
+
+    <!-- Header
+    ============================ -->
+    <header id="header" class="sticky-top">
+        <!-- Navbar -->
+        <nav class="primary-menu navbar navbar-expand-lg navbar-dropdown-dark">
+            <div class="container-fluid">
+                <!-- Sidebar Toggler -->
+                <button id="sidebarCollapse" class="navbar-toggler d-block d-md-none" type="button"><span></span><span class="w-75"></span><span></span></button>
+
+                <!-- Logo -->
+                <a class="logo ml-md-3" href="index.html" title="iDocs Template"> <img src="assets/images/logo.png" alt="iDocs Template"/> </a>
+                <span class="text-2 ml-2">v1.0</span>
+                <!-- Logo End -->
+
+                <!-- Navbar Toggler -->
+                <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#header-nav"><span></span><span></span><span></span></button>
+
+                <div id="header-nav" class="collapse navbar-collapse justify-content-end">
+                    <ul class="navbar-nav">
+                        <li class="dropdown"> <a class="dropdown-toggle" href="#">Dropdown</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li class="dropdown"><a class="dropdown-item dropdown-toggle" href="#">Dropdown Action</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="index.html">Action</a></li>
+                                        <li><a class="dropdown-item" href="feature-header-dark.html">Another Action</a></li>
+                                        <li><a class="dropdown-item" href="feature-header-primary.html">Something Else Here</a></li>
+                                        <li><a class="dropdown-item" href="index-2.html">Another Link</a></li>
+                                    </ul>
+                                </li>
+                                <li><a class="dropdown-item" href="#">Another Action</a>
+                                <li><a class="dropdown-item" href="#">Something Else Here</a></li>
+                            </ul>
+                        </li>
+                        <li><a target="_blank" href="https://themeforest.net/user/harnishdesign/portfolio?ref=HarnishDesign">Other Template</a></li>
+                        <li><a target="_blank" href="https://themeforest.net/user/harnishdesign/#contact?ref=HarnishDesign">Support</a></li>
+                    </ul>
+                </div>
+                <ul class="social-icons social-icons-sm ml-lg-2 mr-2">
+                    <li class="social-icons-twitter"><a data-toggle="tooltip" href="http://www.twitter.com/harnishdesign/" target="_blank" title="" data-original-title="Twitter"><i class="fab fa-twitter"></i></a></li>
+                    <li class="social-icons-facebook"><a data-toggle="tooltip" href="http://www.facebook.com/harnishdesign/" target="_blank" title="" data-original-title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+                    <li class="social-icons-dribbble"><a data-toggle="tooltip" href="http://www.dribbble.com/harnishdesign/" target="_blank" title="" data-original-title="Dribbble"><i class="fab fa-dribbble"></i></a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Navbar End -->
+    </header>
+    <!-- Header End -->
+
+    <!-- Content
+    ============================ -->
+    <div id="content" role="main">
+
+        <!-- Sidebar Navigation
+        ============================ -->
+        <div class="idocs-navigation bg-dark docs-navigation-dark">
+            <ul class="nav flex-column ">
+                <li class="nav-item"><a class="nav-link active" href="#idocs_start">Getting Started</a>
+                    <ul class="nav flex-column">
+                        <li class="nav-item"><a class="nav-link" href="#idocs_installation">Roles</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#idocs_html_structure">HTML Structure</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#idocs_sass">Sass</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#idocs_color_schemes">Color Schemes</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#idocs_theme_customization">Customization</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#idocs_logo_settings">Logo Settings</a></li>
+                    </ul>
+                </li>
+
+                <!-- Setup Screens-->
+
+                <li class="nav-item"><a class="nav-link" href="#setup_screens">Setup Screens</a>
+                    <ul class="nav flex-column">
+                        <li class="nav-item"><a class="nav-link" href="#add_edit_peos">Add/Edit/View PEOs</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#add_edit_plos">Add/Edit/View PLOs</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#add_verb">Add Bloom's Taxonomy</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#add_view_courses">Add/Edit/View Courses</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#add_view_batches">Add/View Batches</a></li>
+                    </ul>
+                </li>
+
+                <!-- Users-->
+
+
+                <li class="nav-item"><a class="nav-link" href="#users">Users</a>
+                    <ul class="nav flex-column">
+                        <li class="nav-item"><a class="nav-link" href="#users">Add Users</a>
+                            <ul class="nav flex-column">
+                                <li class="nav-item"><a class="nav-link" href="#staff">Add Staff</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#student">Add Student</a></li>
+
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="#view_users">View Users</a>
+                            <ul class="nav flex-column">
+                                <li class="nav-item"><a class="nav-link" href="#view_staff">View Staff</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#view_students">View Student</a></li>
+
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+
+
+                <li class="nav-item"><a class="nav-link" href="#flow_framework">Framework</a>
+                    <ul class="nav flex-column">
+                        <li class="nav-item"><a class="nav-link" href="#flow_framework">Add New Framework</a>
+
+
+                            <!--              <ul class="nav flex-column">-->
+
+                            <!--                <li class="nav-item"><a class="nav-link" href="#flow_framework">Add New Framework</a>-->
+
+                            <li class="nav flex-column">
+                                <li class="nav-item"><a class="nav-link" href="#set_framework_name">Set Framework Name</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#peo_framework">Add PEOs to framework</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#peo_mission_vission">Map university and program mission
+                                    vision to PEOs
+                                </a></li>
+                                <li class="nav-item"><a class="nav-link" href="#plo_framework">Add PLOs to framework</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#plo_peo">Map PLOs to PEOs</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#courses_framework">Add Courses to framework</a></li>
+                                <!--<li class="nav-item"><a class="nav-link" href="#courses_plo">Map Courses to PLOs</a></li>-->
+                                <li class="nav-item"><a class="nav-link" href="#clo_courses">Set CLOs for courses</a></li>
+								<li class="nav-item"><a class="nav-link" href="#plo_to_course_map">Review of PLO to courses mapping</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#kpi_settings">KPI Settings</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#fyp_framework">Add FYP to framework</a></li>
+                  <ul class="nav flex-column">
+                    <li class="nav-item"><a class="nav-link" href="#set_framework_name">Set Framework Name</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#peo_framework">Add PEOs to framework</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#peo_mission_vission">Map university and program mission
+                      vision to PEOs
+                    </a></li>
+                    <li class="nav-item"><a class="nav-link" href="#plo_framework">Add PLOs to framework</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#plo_peo">Map PLOs to PEOs</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#courses_framework">Add Courses to framework</a></li>
+                <!--    <li class="nav-item"><a class="nav-link" href="#courses_plo">Map Courses to PLOs</a></li> -->
+                    <li class="nav-item"><a class="nav-link" href="#clo_courses">Set CLOs for courses</a></li>
+					<li class="nav-item"><a class="nav-link" href="#plo_to_course_map">Review of PLO to courses mapping</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#kpi_settings">KPI Settings</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#fyp_framework">Add FY(D)P to framework</a></li>
+
+                            </ul>
+
+
+                            <!--                </li>-->
+                            <!--                <li class="nav-item"><a class="nav-link" href="#idocs_code">Existing framework</a></li>-->
+
+
+                            <!--                <li class="nav-item"><a class="nav-link" href="#set_framework_name">Set Framework Name</a></li>-->
+                            <!--                <li class="nav-item"><a class="nav-link" href="#peo_framework">Add PEOs to framework</a></li>-->
+                            <!--                <li class="nav-item"><a class="nav-link" href="#peo_mission_vission">Map university and program mission-->
+                            <!--                  vision to PEOs-->
+                            <!--                </a></li>-->
+                            <!--                <li class="nav-item"><a class="nav-link" href="#plo_framework">Add PLOs to framework</a></li>-->
+                            <!--                <li class="nav-item"><a class="nav-link" href="#plo_peo">Map PLOs to PEOs</a></li>-->
+                            <!--                <li class="nav-item"><a class="nav-link" href="#courses_framework">Add Courses to framework</a></li>-->
+                            <!--                <li class="nav-item"><a class="nav-link" href="#courses_plo">Map Courses to PLOs</a></li>-->
+                            <!--                <li class="nav-item"><a class="nav-link" href="#clo_courses">Set CLOs for courses</a></li>-->
+                            <!--                <li class="nav-item"><a class="nav-link" href="#kpi_settings">KPI Settings</a></li>-->
+                            <!--                <li class="nav-item"><a class="nav-link" href="#fyp_framework">Add FYP to framework</a></li>-->
+
+
+                            <!--              </ul>-->
+
+
+                        </li>
+                            </li>
+                        <li class="nav-item"><a class="nav-link" href="#idocs_code">Existing framework</a></li>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#idocs_code">Existing framework</a></li>
+
+                    </ul>
+
+
+                </li>
+
+
+
+                <li class="nav-item"><a class="nav-link" href="#reports_chairman">Reports</a>
+                    <ul class="nav flex-column">
+                        <li class="nav-item"><a class="nav-link" href="#plo_assess_report">PLO Assessment Report</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#course_plo_report">Course-wise PLO Report</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#plo_transcript">PLO Transcript</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#clo_report">CLO Reports</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#teacher_course_mapping">Teacher-Course Mapping</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#semester_progress_status">Semester Progress Status</a></li>
+                        <!-- <li class="nav-item"><a class="nav-link" href="#clo_cqi">CLO CQI</a></li> -->
+                    </ul>
+                </li>
+
+
+                <li class="nav-item"><a class="nav-link" href="#start_semester">Semesters</a>
+
+                    <ul class="nav flex-column">
+
+                        <li class="nav-item"><a class="nav-link" href="#start_new_semester">Start new semester</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#view_edit_semester">View/Edit Semester</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#assign_teacher_courses">Assign courses to teachers</a></li>
+
+
+                    </ul>
+
+
+
+                </li>
+
+                <!-- <li class="nav-item"><a class="nav-link" href="#cqi">CQI</a></li> -->
+                <!-- <li class="nav-item"><a class="nav-link" href="#add_survey">Surveys</a> -->
+
+                    <ul class="nav flex-column">
+
+                        <li class="nav-item"><a class="nav-link" href="#add_survey">Add Survey</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#survey_rubric">Add Survey Rubrics</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#edit_view_del_survey_rubric">Edit/View/Delete Survey Rubrics</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#add_edit_view_marks">Add/Edit/View Marks</a></li>
+
+
+
+                    </ul>
+
+
+
+                </li>
+                <li class="nav-item"><a class="nav-link" href="#fyp">FY(D)P</a>
+                    <ul class="nav flex-column">
+                        <!-- <li class="nav-item"><a class="nav-link" href="#set_fyp_rubrics">Set FYP Rubrics</a></li> -->
+                        <li class="nav-item"><a class="nav-link" href="#view_fyp_rubrics">View FY(D)P Rubrics</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#assign_fyp_teacher">Assign FY(D)P to Teachers</a></li>
+						
+                    </ul>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="#practical_rubric">CEP/CEA</a></li>
+
+
+
+
+                <li class="nav-item"><a class="nav-link" href="#teachers_courses">Teachers' Courses</a>
+                    <ul class="nav flex-column">
+                        <li class="nav-item"><a class="nav-link" href="#view_courses">View Courses</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#view_course_students">View Students</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#set_eval_criteria">Set Evaluation Criteria</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#rubrics">Rubrics</a></li>
+                        <!-- <li class="nav-item"><a class="nav-link" href="#improvement_students">View Students for Improvement</a></li> -->
+                        <li class="nav-item"><a class="nav-link" href="#view_clo_report">View CLO Report</a></li>
+						<li class="nav-item"><a class="nav-link" href="#add_view__fydp_marks">Add/View FY(D)P Marks</a></li>
+                        <!-- <li class="nav-item"><a class="nav-link" href="#add_view_fyp_marks">Add/View FY(D)P marks</a></li> -->
+
+                        <li class="nav-item"><a class="nav-link" href="#download_resources">Download Resources</a></li>
+
+
+                    </ul>
+                </li>
+
+                <li class="nav-item"><a class="nav-link" href="#superadmin">Super Admin</a>
+                    <ul class="nav flex-column">
+                        <li class="nav-item"><a class="nav-link" href="#add_program">Add a Program</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#view_programs">View Programs</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="#student">Student</a>
+                    <ul class="nav flex-column">
+                        <li class="nav-item"><a class="nav-link" href="#student_clo_report">View CLO Report</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#student_plo_report">View PLO Report</a></li>
+                    </ul>
+                </li>
+
+      </ul>
+
+
+
+
+
+                <li class="nav-item"><a class="nav-link" href="#idocs_changelog">Changelog</a>
+                    <ul class="nav flex-column">
+                        <li class="nav-item"><a class="nav-link" href="#v1-1">v1.1</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#v1-0">v1.0</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+        <!-- Docs Content
+        ============================ -->
+        <div class="idocs-content">
+            <div class="container">
+
+                <!-- Getting Started
+                ============================ -->
+
+
+                <hr class="divider">
+
+                <!-- Installation
+                ============================ -->
+
+
+                <hr class="divider">
+
+                <!-- HTML Structure
+                ============================ -->
+
+
+                <hr class="divider">
+
+                <!-- Sass
+                ============================ -->
+
+
+                <hr class="divider">
+
+                <!-- Color Schemes
+                ============================ -->
+
+
+                <hr class="divider">
+
+                <!-- Customization
+                ============================ -->
+
+
+                <hr class="divider">
+
+                <!-- Logo Settings
+                ============================ -->
+
+
+
+                <hr class="divider">
+
+                <!-- Layout
+                ============================ -->
+                <section id="setup_screens">
+                    <h2>Setup Screens</h2>
+                    <p class="lead mb-5">The setup screens allow the user to define PEOs, PLOs and courses for a program.
+                        These entities can then be used later during the creation of framework.</p>
+                    <p class="lead mb-5">Here, you can also create batches, which are used at the time of adding students to the system. Each student is associated to a batch
+                        defined for a program.</p>
+                </section>
+
+
+                <!-- Header
+                ============================ -->
+                <section id="add_edit_peos">
+                    <h2>Add/Edit/View PEOs</h2>
+                    <p>From the side pane, click Setup Screens>Add/View PEOs. The PEO list contains all the PEOs created for the program so far. Clicking on the pencil icon lets the user edit the text of the PEO.
+                        "Add a PEO" button will take the user to the next screen where a new PEO can be added</p>
+                    <p><img src="assets/images/add-view-peos.png" class="img-fluid" alt="Responsive image"></p>
+                    <p>In order to create a new PEO, type in the PEO description and hit the save button.</p>
+                    <p><img src="assets/images/add-peo.png" class="img-fluid" alt="Responsive image"></p>
+
+                </section>
+
+                <hr class="divider">
+
+                <!-- Navbar
+                ============================ -->
+                <section id="add_edit_plos">
+                    <h2>Add/Edit/View PLOs</h2>
+                    <p>From the side pane, click Setup Screens>Add/View PLOs. It will show the list of PLOs in the system for the user's program. The pencil icon lets the user make any modifications to the text of the PLO.
+                        "Add a PLO" button will redirect the user to the next screen where they can add a new PLO.</p>
+                    <p><img src="assets/images/add-view-plo.png" class="img-fluid" alt="Responsive image"></p>
+                    <p>In order to create a new PLO, type in the title and description of the PLO and hit the Save button.</p>
+                    <p><img src="assets/images/add-plo.png" class="img-fluid" alt="Responsive image"></p>
+                </section>
+
+                <hr class="divider">
+
+                <!-- Sidebar
+                ============================ -->
+                <section id="add_verb">
+                    <h2>Add Bloom's Taxonomy</h2>
+                    <p>Go to Setup Screens>Bloom's Taxonomy. Here you can add a new verb to a domain by following the following steps:<br>
+                        - Select the desired domain.<br>
+                        - Select the sub-domain level in which you want to enter the verb.<br>
+                        - A list of already present verbs in the selected sub-domain will appear.<br>
+                        - Type in the verb you want to add and hit the "Ok" button.</p>
+                    <p><img src="assets/images/add-verb.png" class="img-fluid" alt="Responsive image"></p>
+                </section>
+
+                <hr class="divider">
+
+                <!-- Footer
+                ============================ -->
+                <section id="add_view_courses">
+                    <h2>Add/Edit/View Courses</h2>
+                    <h4>View Courses</h4>
+                    <p>Go to Setup Screens>View Courses. A list of all the courses in the program will appear. The pencil icon lets the user edit the course.</p>
+                    <p><img src="assets/images/view-courses.png" class="img-fluid" alt="Responsive image"></p>
+                    <h4>Add Courses</h4>
+                    <p>Go to Setup Screens>Add Course. There are two ways to enter courses in the system. You can add the courses one-by-one by using the form
+                        or use the bulk upload option.</p>
+                    <p>If you are adding courses one by one, type in the course code, name and check the tick box if the course is practical. Press the save button</p>
+                    <p>If you are using bulk upload, follow these steps:<br>
+                        - Download the template file.<br>
+                        - Fill in the data carefully according to the format.<br>
+                        - Upload the file<br>
+                        - Click "Submit"</p>
+                    <p><img src="assets/images/add-course.png" class="img-fluid" alt="Responsive image"></p>
+                </section>
+
+                <hr class="divider">
+
+                <!-- Box Layout Style
+                ============================ -->
+                <section id="add_view_batches">
+                    <h2>Add/View Batches</h2>
+                    <p>Go to Setup Screens>Add/View Batches.
+                        In order to add a new batch,<br>
+                        - Provide the name of the batch.<br>
+                        - Select the framework it follows from the select menu.<br>
+                        - Provide the number of section<br>
+                        - Choose start and end date.<br>
+                        - Press "Save"</p>
+                    <p>The table at the bottom shows the batches already created in the program.</p>
+                    <p><img src="assets/images/add-view-batches.png" class="img-fluid" alt="Responsive image"></p>
+                </section>
+
+                <hr class="divider">
+
+                <!-- Content
+                ============================ -->
+                <section id="users">
+                    <h2>Add/View Users</h2>
+                </section>
+                <section id="staff">
+                    <h4>Add Staff</h4>
+                    <p>In order to add staff members, from the side pane, select Users>Add Users>Add Staff.</p>
+                    <p>The users can either be added one by one using the UI or the bulk upload option can also be used.</p>
+                    <p>If you are adding users one by one, type in the required data. Press the save button.</p>
+                    <p>If you are using bulk upload, follow these steps:<br>
+                        - Download the template file.<br>
+                        - Fill in the data carefully according to the format.<br>
+                        - Upload the file.<br>
+                        - Click "Submit".</p>
+                    <p><img src="assets/images/add-staff.png" class="img-fluid" alt="Responsive image"></p>
+                </section>
+                <section id="student">
+                    <h4>Add Students</h4>
+                    <p>In order to add students, from the side pane, select Users>Add Users>Add Student.</p>
+                    <p>The users can either be added one by one using the UI or the bulk upload option can also be used.</p>
+                    <p>If you are adding users one by one, type in the required data. Press the save button.</p>
+                    <p>If you are using bulk upload, follow these steps:<br>
+                        - Download the template file.<br>
+                        - Fill in the data carefully according to the format.<br>
+                        - Upload the file.<br>
+                        - Click "Submit".</p>
+                    <p><img src="assets/images/add-student.png" class="img-fluid" alt="Responsive image"></p>
+                </section>
+                <section id="view_users">
+                    <h2>View Users</h2>
+
+                </section>
+                <section id="view_staff">
+                    <h4>View Staff</h4>
+                    <p>In order to view all the staff members of the program, from the side pane, select Users>View Users>View Staff</p>
+                    <p>On the top right corner of the screen, there's an "Activate All Users" button. Clicking this button activates all the staff member of the program.
+                        This means that after clicking this button, a username and password will be sent to the email address of all the staff members.
+                        The user can use these credentials to log into their profile in the system.</p>
+                    <p>In the table, in the status column, the "activated" status shows that the user has been activated. "Activate" button activates the user if they were not previously activated for some reason.</p>
+                    <p><img src="assets/images/view-staff.png" class="img-fluid" alt="Responsive image"></p>
+                </section>
+                <section id="view_students">
+                    <h4>View Students</h4>
+                    <p>In order to view all the students of the program, from the side pane, select Users>View Users>View Student</p>
+                    <p>On the top right corner of the screen, there's an "Activate All Users" button. Clicking this button activates all the students of the program.
+                        This means that after clicking this button, a username and password will be sent to the email address of all the students.
+                        The user can use these credentials to log into their profile in the system.</p>
+                    <p>In the table, in the status column, the "activated" status shows that the user has been activated. "Activate" button activates the user if they were not previously activated for some reason.</p>
+                    <p><img src="assets/images/view-students.png" class="img-fluid" alt="Responsive image"></p>
+                </section>
+
+
+
+                <!-- Framework Heading
+                        ============================ -->
+                <section id="flow_framework">
+                    <h2>OBE Framework</h2>
+                    <p>Following is the complete flow of the framework.</p>
+                    <p><img src="assets/images/framework_flow.png" class="img-fluid" alt="Responsive image"></p>
+                    <!--          <pre><code class="html">&lt;img src=&quot;assets/images/framework_flow.png&quot; class=&quot;img-fluid&quot; -->
+                    <!--            alt=&quot;Responsive image&quot;&gt;</code></pre>-->
+                </section>
+
+
+                <section id="set_framework_name">
+                    <h2>Add a new framework</h2>
+                    <p>For adding a new framework, user has to enter the name of the framework. The university mission and vision is returned
+                        by the system itself. The user can either create a new program mission or vision or choose from the existing ones.
+                    </p>
+                    <p><img src="assets/images/frame_name.png" class="img-fluid" alt="Responsive image"></p>
+                    <!--          <pre><code class="html">&lt;img src=&quot;assets/images/frame_name.png&quot; class=&quot;img-fluid&quot;-->
+                    <!--            alt=&quot;Responsive image&quot;&gt;</code></pre>-->
+                </section>
+
+
+                <section id="peo_framework">
+                    <h2>Add PEOs</h2>
+                    <p>The user has to select the number of PEOs to be added in the framework. User either creates new PEOs
+                        by providing text in the description box or choose from the existing ones.
+                    </p>
+                    <p><img src="assets/images/peo_frame.png" class="img-fluid" alt="Responsive image"></p>
+                    <!--          <pre><code class="html">&lt;img src=&quot;assets/images/peo_frame.png&quot;-->
+                    <!--            class=&quot;img-fluid&quot; alt=&quot;Responsive image&quot;&gt;</code></pre>-->
+                </section>
+
+                <section id="peo_mission_vission">
+                    <h2>Map university and program mission vision to PEOs</h2>
+                    <p>The user has to map university and program mission and vision to PEOs</p>
+                    <p><img src="assets/images/peo_mis_vis.png" class="img-fluid" alt="Responsive image"></p>
+                    <!--          <pre><code class="html">&lt;img src=&quot;assets/images/peo_mis_vis.png&quot;-->
+                    <!--            class=&quot;img-fluid&quot; alt=&quot;Responsive image&quot;&gt;</code></pre>-->
+                </section>
+
+                <section id="plo_framework">
+                    <h2>Add PLOs to framework</h2>
+                    <p>The user has to select the number of PLOs to be added in the framework. User either creates new PLOs
+                        by providing text in the description box or choose from the existing ones.</p>
+                    <p><img src="assets/images/plo_framework.png" class="img-fluid" alt="Responsive image"></p>
+                    <!--          <pre><code class="html">&lt;img src=&quot;assets/images/plo_framework.png&quot;-->
+                    <!--            class=&quot;img-fluid&quot; alt=&quot;Responsive image&quot;&gt;</code></pre>-->
+                </section>
+                <section id="plo_peo">
+                    <h2>Map PLOs to PEOs</h2>
+                    <p>The user has to map PLOs to PEOs.</p>
+                    <p><img src="assets/images/plo_peo.png" class="img-fluid" alt="Responsive image"></p>
+                    <!--          <pre><code class="html">&lt;img src=&quot;assets/images/plo_peo.png&quot;-->
+                    <!--            class=&quot;img-fluid&quot; alt=&quot;Responsive image&quot;&gt;</code></pre>-->
+                </section>
+
+                <section id="courses_framework">
+                    <h2>Add Courses to framework</h2>
+                    <p>The user has to select the number of courses to be added in the framework. User either creates new courses
+                        by providing course code and name or choose from the existing ones.
+                    </p></p>
+                    <p><img src="assets/images/courses_framework.png" class="img-fluid" alt="Responsive image"></p>
+                    <!--          <pre><code class="html">&lt;img src=&quot;assets/images/courses_framework.png&quot; -->
+                    <!--            class=&quot;img-fluid&quot; alt=&quot;Responsive image&quot;&gt;</code></pre>-->
+                </section>
+
+                <section id="courses_plo">
+                <!--    <h2>Map Courses to PLOs</h2>
+                    <p>The user has to map courses to PLOs..</p>
+                    <p><img src="assets/images/courses_plo.png" class="img-fluid" alt="Responsive image"></p>
+                    <!--          <pre><code class="html">&lt;img src=&quot;assets/images/courses_plo.png&quot;-->
+                    <!--            class=&quot;img-fluid&quot; alt=&quot;Responsive image&quot;&gt;</code></pre>-->  
+				-->
+                </section>
+
+                <section id="clo_courses">
+                    <h2>Set CLOs for courses</h2>
+                    <p>User has to select a course then provide the number of CLOs to be added for that course.
+                        The user has to specify that the CLO is a practical CLO or not (so that it is viewed by the respective
+                        teacher, theory or practical). The user maps the CLO to a PLO with a particular taxonomy level. Based on
+                        the taxonomy level selected, verb list is populated. The user can create a CLO from scratch or make it with help
+                        of the verb list provided.
+                    </p>
+                    <p><img src="assets/images/clo_courses.png" class="img-fluid" alt="Responsive image"></p>
+                    <!--          <pre><code class="html">&lt;img src=&quot;assets/images/clo_courses.png&quot; -->
+                    <!--            class=&quot;img-fluid&quot; alt=&quot;Responsive image&quot;&gt;</code></pre>-->
+                </section>
+				<section id="plo_to_course_map">
+                    <h2>Review of PLO to courses mapping</h2>
+                    <p>Here the user is displayed a review of PLO to course mapping. Thsi review is based on the course to CLO mapping done previously.</p>
+                    <p><img src="assets/images/review_plo_to_course_map.png" class="img-fluid" alt="Responsive image"></p>
+                    <!--          <pre><code class="html">&lt;img src=&quot;assets/images/clo_courses.png&quot; -->
+                    <!--            class=&quot;img-fluid&quot; alt=&quot;Responsive image&quot;&gt;</code></pre>-->
+                </section>
+                <section id="kpi_settings">
+                    <h2>KPI Settings</h2>
+                    <p>The user has to provide CLO attempt passing percentage on Individual and Cohort level. Grading method for a CLO is fixed on "Average of the Attempts".
+
+                    <!-- <ul> -->
+                        <!-- <li>Best One</li> -->
+                        <!-- <li>Average of the attempts considered</li> -->
+
+                    <!-- </ul> -->
+                    In this grading method, the result of a CLO for a student will be based on the average of the number of attempts. The system will automatically
+                    take out the best attempts from the total attempts taken for the attempts to be considered. </p>
+					<p>For PLO KPI settings, the user must provide PLO passing percentage on Individual and Cohort level. </p>
+					<p>The least percentage for CLO and PLO KPI settings is 50%.
+
+                    </p>
+                    <p><img src="assets/images/new_kpi_set.png" class="img-fluid" alt="Responsive image"></p>
+                    <!--          <pre><code class="html">&lt;img src=&quot;assets/images/kpi_setting.png&quot;-->
+                    <!--            class=&quot;img-fluid&quot; alt=&quot;Responsive image&quot;&gt;</code></pre>-->
+                </section>
+
+                <section id="fyp_framework">
+                    <h2>FY(D)P</h2>
+                    <p>User has to provide name and code for FY(D)P. Mapping of FY(D)P to PLOs is also done on this screen.</p>
+                    <p><img src="assets/images/fyp_framework.png" class="img-fluid" alt="Responsive image"></p>
+
+                </section>
+
+
+                <section id="reports_chairman">
+                    <h2>Reports</h2>
+                    <p>Following reports will be viewed by the HOD of the Department.</p>
+                    <!--          <p><img src="assets/images/fyp_framework.png" class="img-fluid" alt="Responsive image"></p>-->
+
+        </section>
+
+                <section id="plo_assess_report">
+                    <h2>PLO Assessment Report</h2>
+                    <p>User can view PLO report for a particular batch. The report clearly shows the plo status of students. Moreover, it also
+                        shows the status for over all batch. Here </p>
+                    <ul>
+                        <li>Red indicates failed CLO.</li>
+                        <li>Green indicates passed CLO.</li>
+                        <li>Yellow indicates unevaluated CLO.</li>
+
+                    </ul>
+                    <p><img src="assets/images/plo_assess_report.png" class="img-fluid" alt="Responsive image"></p>
+
+                </section>
+                <section id="course_plo_report">
+                    <h2>Course-wise PLO Assessment Report</h2>
+                    <p>User can view Course-wise PLO report for a particular batch. User first selects a PLO, then he/she can clearly see
+                        the status of students for a PLO in a course. Moreover, it also
+                        shows the status for over all batch. Here </p>
+                    <ul>
+                        <li>Red indicates failed CLO.</li>
+                        <li>Green indicates passed CLO.</li>
+                        <li>Yellow indicates unevaluated CLO.</li>
+
+                    </ul>
+                    <p><img src="assets/images/course_plo_report.png" class="img-fluid" alt="Responsive image"></p>
+
+                </section>
+
+                <section id="plo_transcript">
+                    <h2>PLO transcript</h2>
+                    <p>User can view PLO report transcript for a student. User first selects a batch, then he/she can clearly see
+                        all the students in a particular batch and can view the transcripts of individual students. The transcript contains the list of
+                        the courses, FY(D)P and surveys along with their percentage a student has attained to their mapped PLOs. The transcript can be downloaded
+                        in PDF format. Here
+                    </p>
+                    <ul>
+                        <li>Yellow indicates that the evaluation for a PLO in a course is not yet completed.</li>
+
+
+                    </ul>
+                    <p><img src="assets/images/plo_transcript.png" class="img-fluid" alt="Responsive image"></p>
+
+                </section>
+
+                <section id="clo_report">
+                    <h2>CLO Report</h2>
+                    <p>User selects a batch which then shows the courses offered to that batch for the current semester. After selecting a course, user
+                        can view the CLO report which contains all the attempts of evaluations and rubrics. Here
+                    </p>
+                    <ul>
+                        <li>Green indicated passed</li>
+                        <li>Red indicated failed</li>
+                        <li>Yellow indicates absent</li>
+                        <li>Black indicates that the marks have not been entered yet</li>
+
+
+
+                    </ul>
+                    <p><img src="assets/images/clo_report.png" class="img-fluid" alt="Responsive image"></p>
+
+                </section>
+
+                <section id="teacher_course_mapping">
+                    <h2>Teacher Course Mapping</h2>
+                    <p>User selects a framework which then shows the courses offered for the current semester for that framework along with their
+                        mapping with teachers teaching to respective sections.
+                    </p>
+
+                    <p><img src="assets/images/teacher_course_mapping.png" class="img-fluid" alt="Responsive image"></p>
+
+                </section>
+
+                <section id="semester_progress_status">
+                    <h2>Semester Progress Status</h2>
+                    <p>User selects a framework which then shows the courses offered for the current semester for that framework along with their
+                        mapping with teachers. If a teacher has frozen the marks of a course, it shows the status of course completed for that teacher.
+                        The user can also unfreeze a course if he/she finds out later that the status is not completed yet.
+                    </p>
+
+                    <p><img src="assets/images/semester_progress_status.png" class="img-fluid" alt="Responsive image"></p>
+
+                </section>
+			
+                <!-- <section id="clo_cqi"> -->
+                    <!-- <h2>CLO CQI</h2> -->
+                    <!-- <p>User selects a batch which then shows the courses offered for the current semester for that batch -->
+                        <!-- . After selecting a course, user can view the students who have been reassessed. Here -->
+
+                        <!-- <!--            User can assign students to teachers for reassessment.--> -->
+                        <!-- <!--            After assignment, the teacher can view those students for reassessment under Grade Improvement section.Here--> -->
+                    <!-- </p> -->
+
+                    <!-- <ul> -->
+                        <!-- <li>Green shows that a student has passed the reassessment.</li> -->
+                        <!-- <li>Red indicates failed</li> -->
+                        <!-- <li>Yellow indicates reassessment is in progress.</li> -->
+
+                    <!-- </ul> -->
+
+                    <!-- <p><img src="assets/images/clo_cqi_report.png" class="img-fluid" alt="Responsive image"></p> -->
+
+                <!-- </section> -->
+			
+                <section id="start_semester">
+                    <h2>Semesters</h2>
+                    <p>Creation of a new semester is the most crucial part of the system. User can
+
+
+                    </p>
+
+                    <ul>
+                        <li>Create, edit and view a semester.</li>
+                        <li>Offer Courses</li>
+                        <li>Assign courses to teacher and batch</li>
+
+                    </ul>
+
+                    <!--          <p><img src="assets/images/start_semester.png" class="img-fluid" alt="Responsive image"></p>-->
+
+                </section>
+
+                <section id="start_new_semester">
+                    <h2>Start new semester</h2>
+                    <p>New semester cannot be started until all the courses of the current semester are completed.
+                        To view the course progress of the current semester, please view 'Reports>Semester Progress Status'. In order to start a new semester,
+                        name, start date and end date are provided. User then selects a framework and add courses to be offered from that framework in the
+                        current semester.
+
+
+                    </p>
+
+
+                    <p><img src="assets/images/start_new_semester.png" class="img-fluid" alt="Responsive image"></p>
+
+                </section>
+
+                <section id="view_edit_semester">
+                    <h2>View/Edit Semester</h2>
+                    <p>User can view the details of the semester. After clicking on the view details button, user can view the offered courses in the
+                        semester. Courses can also be added in the semester selected.
+
+
+                    </p>
+
+
+                    <p><img src="assets/images/view_edit_semester.png" class="img-fluid" alt="Responsive image"></p>
+                    <p>Courses can also be added in the semester selected.
+
+
+                    </p>
+                    <p><img src="assets/images/semester_details.png" class="img-fluid" alt="Responsive image"></p>
+
+
+
+                </section>
+
+                <section id="assign_teacher_courses">
+                    <h2>Assign courses to teachers</h2>
+                    <p>After selecting a framework, courses offered in the current semester for that framework appear along with the the list
+                        of teachers. User selects a batch for which the course has to be offered then assigns teachers to individual sections accordingly.
+
+
+                    </p>
+
+
+                    <p><img src="assets/images/assign_teachers_to_courses.png" class="img-fluid" alt="Responsive image"></p>
+
+
+
+
+                </section>
+
+                
+                <!-- <section id="add_survey"> -->
+                    <!-- <h2>Add Survey</h2> -->
+                    <!-- <p>User can create two types of surveys. -->
+
+
+                    <!-- </p> -->
+                    <!-- <ul> -->
+                        <!-- <li -->
+                        <!-- >PEO level survey</li> -->
+                        <!-- <li -->
+                        <!-- >PLO level survey</li> -->
+
+                    <!-- </ul> -->
+
+                    <!-- <p>User can create two types of surveys. -->
+
+
+                    <!-- </p> -->
+
+
+                    <!-- <p><img src="assets/images/peo_plo.png" class="img-fluid" alt="Responsive image"></p> -->
+                    <!-- <p>In order to add a PEO level survey, name and batch is provided by the user. After selecting the batch, PEO can be selected which -->
+                        <!-- will be according to the framework associated with that batch. -->
+
+
+                    <!-- </p> -->
+                    <!-- <p><img src="assets/images/peo_survey.png" class="img-fluid" alt="Responsive image"></p> -->
+                    <!-- <p>In order to add a PLO level survey, name and batch is provided by the user. After selecting the batch, PLO can be selected which -->
+                        <!-- will be according to the framework associated with that batch. -->
+
+
+                    <!-- </p> -->
+                    <!-- <p><img src="assets/images/plo_survey.png" class="img-fluid" alt="Responsive image"></p> -->
+
+
+
+                <!-- </section> -->
+                <!-- <section id="survey_rubric"> -->
+                    <!-- <h2>Add Survey Rubric</h2> -->
+                    <!-- <p> User selects a batch which in turn shows the surveys for that batch. Rubric can be added by selecting Add rubric. -->
+
+                    <!-- </p> -->
+
+
+                    <!-- <p><img src="assets/images/add_rubric.png" class="img-fluid" alt="Responsive image"></p> -->
+
+
+                    <!-- <p> In order to create a rubric, user has to do the following -->
+
+                    <!-- </p> -->
+                    <!-- <ul> -->
+                        <!-- <li -->
+                        <!-- >Enter name of the rubric.</li> -->
+                        <!-- <li -->
+                        <!-- >Enter description of the rubric.</li> -->
+                        <!-- <li -->
+                        <!-- >Map PLOs/PEOs to Rubric.</li> -->
+                        <!-- <li -->
+                        <!-- >Enter criteria and scale for the PLOs/PEOs respectively.</li> -->
+
+                    <!-- </ul> -->
+                    <!-- <p><img src="assets/images/add_rubric_detail.png" class="img-fluid" alt="Responsive image"></p> -->
+
+
+                <!-- </section> -->
+
+                <!-- <section id="edit_view_del_survey_rubric"> -->
+                    <!-- <h2>Edit/View/Delete Survey Rubric</h2> -->
+                    <!-- <p> User can edit, view and delete an existing rubric for a batch. -->
+
+                    <!-- </p> -->
+                    <!-- <p><img src="assets/images/edit_view_delete.png" class="img-fluid" alt="Responsive image"></p> -->
+                    <!-- <p><img src="assets/images/edit_view.png" class="img-fluid" alt="Responsive image"></p> -->
+
+                <!-- </section> -->
+                <!-- <section id="add_edit_view_marks"> -->
+                    <!-- <h2>Add/Edit/View Marks</h2> -->
+                    <!-- <p> User can add, edit and view marks. Marks are entered on the basis of scale selected for a criteria. -->
+
+                    <!-- </p> -->
+                    <!-- <p><img src="assets/images/add_edit_view_marks.png" class="img-fluid" alt="Responsive image"></p> -->
+
+
+                <!-- </section> -->
+
+                <section id="practical_rubric">
+                    <h2>CEP/CEA</h2>
+                    <p> To add/view rubrics associated with CEP/CEA (Complex Engineering Problem/Activity), please go to Practical Rubrics>Practical Courses. User has to choose a framework through which the practical courses offered for the framework in the current semester can be viewed.
+
+
+                    </p>
+                    <p><img src="assets/images/practical_courses.png" class="img-fluid" alt="Responsive image"></p>
+                    <p> After selecting a course User can add a new rubric, view and edit the existing ones.
+
+
+                    </p>
+
+
+                    <ul>
+                        <li>Add a rubric</li>
+                        <li>View a rubric</li>
+                        <li>Edit a rubric</li>
+                        <li>Delete a rubric</li>
+
+                    </ul>
+                    <p><img src="assets/images/add_prac_rubric.png" class="img-fluid" alt="Responsive image"></p>
+                    <p><img src="assets/images/view_prac_rubric.png" class="img-fluid" alt="Responsive image"></p>
+
+
+                </section>
+          </section>
+
+                 
+
+
+                <!-- Add New Framework
+                ============================ -->
+                <!-- <section id="cqi"> -->
+                    <!-- <h2>CQI</h2> -->
+                    <!-- <p>In order to re-assess students who have not cleared their CLOs, use this flow to assign students to teachers for re-evaluation. Click the CQI>Assign teachers to students option in side pane. -->
+                        <!-- The following screen will appear, where after selecting batch, the courses offered in that batch will appear. -->
+                        <!-- Click on the course to view the students who have not cleared CLOs in that course.</p> -->
+                    <!-- <p><img src="assets/images/view-batches-cqi.png" class="img-fluid" alt="Responsive image"></p> -->
+                    <!-- <p>The list of students will appear which contains following students:<br> -->
+                        <!-- - Students who have not passed CLO (Indicated by red)<br> -->
+                        <!-- - Students who are currently being re-assessed (Indicated by yellow)</p> -->
+                    <!-- <p><img src="assets/images/view-students-cqi.png" class="img-fluid" alt="Responsive image"></p> -->
+                    <!-- <p>By clicking the "Reassess" button, a dialog box will open where the list of teachers is provided. Select the teacher from the list and click the "Assign" button. -->
+                        <!-- The student for that particular course and CLO will be then assigned to the teacher.</p> -->
+                    <!-- <p><img src="assets/images/assign-teacher-cqi.png" class="img-fluid" alt="Responsive image"></p> -->
+
+                <!-- </section> -->
+
+                <section id="fyp">
+                    <h2>FY(D)P</h2>
+                    <p>In order to perform operations on the FY(D)P of the program, please refer to this section.</p>
+                </section>
+                <!-- <section id = "set_fyp_rubrics"> -->
+                    <!-- <h2>Set FY(D)P Rubric</h2> -->
+                    <!-- <p>In the side pane, go to FY(D)P>Set FY(D)P Rubric, Enter name and description. PLOs associated with the rubric are fixed. Press next. </p> -->
+                    <!-- <!-- <p><img src="assets/images/set-fyp-rubric.png" class="img-fluid" alt="Responsive image"></p> --> 
+                    <!-- <p>After clicking next, The following form will open. Here the user can specify the criteria for each PLOs and scales associated with each criteria.</p> -->
+                    <!-- <p><img src="assets/images/fyp-criteria.png" class="img-fluid" alt="Responsive image"></p> -->
+                <!-- </section> -->
+                <section id = "view_fyp_rubrics">
+                    <h2>View FY(D)P Rubrics</h2>
+                    <p>To view FY(D)P rubrics, go to FY(D)P>View FY(D)P Rubrics. Choose the batch. Now you will be able to see the rubrics associated with the FY(D)P of the chosen batch.</p>
+                    <p><img src="assets/images/view_fydp_rubrics.png" class="img-fluid" alt="Responsive image"></p>
+                    <p>To view the details, click the eye icon. All the details related to the rubric will appear on the screen. </p>
+                    <p><img src="assets/images/rubric_detail.png" class="img-fluid" alt="Responsive image"></p>
+                </section>
+                <section id = "assign_fyp_teacher">
+                    <h2>Assign FY(D)P to teachers</h2>
+                    <p>To assign FY(D)P to a teacher to conduct its evaluation, please click FY(D)P>Assign FY(D)P to teachers. Choose the framework, the FY(D)P associated with the framework will appear.
+                        Select the batch to which the FY(D)P needs to be associated. Select the teacher from the select menu. Press "Save".</p>
+                    <p><img src="assets/images/assign-fyp-to-teacher.png" class="img-fluid" alt="Responsive image"></p>
+                </section>
+				
+
+                <section id="teachers_courses">
+                    <h2>Teacher's Courses</h2>
+                    <p>In this section, the teacher can view the courses assigned to them for the current semester. They can perform several operations on them explained in detail below.</p>
+                </section>
+                <section id="view_courses">
+                    <h2>View Courses</h2>
+                    <p>Here, the teacher can view all the courses assigned to them for the current semester</p>
+                    <p><img src="assets/images/view-teacher-courses.png" class="img-fluid" alt="Responsive image"></p>
+                </section>
+                <section id="view_course_students">
+                    <h2>View Students</h2>
+                    <p>The teacher can view the section-wise list of the students for each course.</p>
+                    <p>After clicking My Courses>View Students from the side pane, the list of courses appear on the screen.</p>
+                    <p><img src="assets/images/courses-for-students.png" class="img-fluid" alt="Responsive image"></p>
+                    <p>After clicking on a particular course's section, the list of students for that section appears.</p>
+                    <p><img src="assets/images/students-in-course.png" class="img-fluid" alt="Responsive image"></p>
+                </section>
+                <section id="set_eval_criteria">
+                    <h2>Set Evaluation Criteria</h2>
+                    <p> User can view all the courses offered in the current semester. After selecting a course, evaluations can be created.
+
+
+                    </p>
+                    <p><img src="assets/images/view_course_eval.png" class="img-fluid" alt="Responsive image"></p>
+                    <p> For creating an evaluation, user
+
+
+                    </p>
+
+
+                    <ul>
+                        <li>Selects the framework.</li>
+                        <li>Sets the name of evaluation.</li>
+                        <li>Map the evaluation with CLOs.</li>
+                        <li>Associate questions with CLOs.</li>
+                        <li>Upload Question Paper.</li>
+
+                    </ul>
+                    <p><img src="assets/images/name_eval.png" class="img-fluid" alt="Responsive image"></p>
+                    <p><img src="assets/images/eval_2.png" class="img-fluid" alt="Responsive image"></p>
+                    <p><img src="assets/images/eval_1.png" class="img-fluid" alt="Responsive image"></p>
+
+
+
+                </section>
+
+                <section id="rubrics">
+                    <h2>Rubrics</h2>
+                    <p> In order to add, edit, view, delete or entering the marks of rubric, user selects a course.
+
+
+                    </p>
+                    <p><img src="assets/images/rubric_course.png" class="img-fluid" alt="Responsive image"></p>
+                    <p> For creating a rubric, User
+
+
+                    </p>
+
+
+                    <ul>
+                        <li>Sets the name of rubric.</li>
+                        <li>Provides description.</li>
+                        <li>Map rubric with CLOs.</li>
+                        <li>Add criteria.</li>
+                        <li>Add scales for criteria.</li>
+
+                    </ul>
+                    <p><img src="assets/images/add_rubric_course.png" class="img-fluid" alt="Responsive image"></p>
+                    <p><img src="assets/images/course_rubric_details.png" class="img-fluid" alt="Responsive image"></p>
+
+                    <p> User can also add, edit and view the marks of rubrics
+
+
+                    </p>
+
+                    <p><img src="assets/images/add_edit_course_rubric_marks.png" class="img-fluid" alt="Responsive image"></p>
+                    <p> User can also copy an existing rubric.
+
+
+                    </p>
+                    <p><img src="assets/images/copy_rubric.png" class="img-fluid" alt="Responsive image"></p>
+                </section>
+
+                <!-- <section id="improvement_students"> -->
+                    <!-- <h2>View Students for Improvement</h2> -->
+                    <!-- <p> User has to select a course in order to view students for reassessment. These are the students which have been assigned by the -->
+                        <!-- HOD for reassessment. -->
+
+
+                    <!-- </p> -->
+                    <!-- <p><img src="assets/images/view_students_improvement.png" class="img-fluid" alt="Responsive image"></p> -->
+
+                    <!-- <p> User has to update the marks of a student in an evaluation or a rubric for reassessment. -->
+
+                    <!-- </p> -->
+                    <!-- <p><img src="assets/images/reassessment_eval_rubric.png" class="img-fluid" alt="Responsive image"></p> -->
+                    <!-- <p><img src="assets/images/edit_marks_reassessment.png" class="img-fluid" alt="Responsive image"></p> -->
+                    <!-- <p> After updating the marks, the student will be no longer visible for reassessment. Now the updated status of students will be visible for -->
+                        <!-- HOD. -->
+
+                    <!-- </p> -->
+
+                <!-- </section> -->
+                <section id="view_clo_report">
+                    <h2>View CLO Report</h2>
+                    <p> User can view the CLO report of students section wise. First user selects a course along with the section in order to view the report.
+
+
+                    </p>
+                    <p><img src="assets/images/view_clo_first.png" class="img-fluid" alt="Responsive image"></p>
+                    <p>Report clearly shows the status of students in individual attempts and the over all status of CLO accordingly. Here</p>
+
+                    <ul>
+                        <li>Red indicates failed</li>
+                        <li>Green indicates passed</li>
+                        <li>Yellow indicates absent</li>
+                        <li>Black indicates the marks have not been entered yet.</li>
+                    </ul>
+
+                    <p><img src="assets/images/new_view_clo_report.png" class="img-fluid" alt="Responsive image"></p>
+
+                    <p>Report can also be downloaded in PDF format.</p>
+
+
+                </section>
+				
+				<section id = "add_view__fydp_marks">
+                    <h2>Add/View FY(D)P Marks</h2>
+                    <p>Once a teacher is assigned to a batch, they can view/add FY(D)P marks for the respective batch.</p>
+					<p>To view/add marks, the teacher needs to go to My Courses>Add/View FY(D)P Marks. After choosing 'Batch', the rubrics and associated actions appear on screen as displayed below.</p>
+                    <p><img src="assets/images/add-view_fydp_marks1.png" class="img-fluid" alt="Responsive image"></p>
+                    <p>After clicking on 'Action, the list of FY(D)P students for rubrics at different stages of FY(D)P are displayed on screen. The screen shot below displays Students list for Rubric at the initial stage of 'Project Proposal'.</p>
+					<p> At this stage there are 2 options: </p>
+					<ul>
+                        <li>Enter data of each student one at a time and click save</li>
+                        <li>Download template document and upload whole data at once</li>
+
+                    </ul>
+                    <p><img src="assets/images/add-view_fydp_marks.png" class="img-fluid" alt="Responsive image"></p>
+                </section>
+				
+				
+
+                <!-- <section id="add_view_fyp_marks"> -->
+                    <!-- <h2>Add/View FY(D)P marks</h2> -->
+                    <!-- <p> User has to select a framework which in turn shows the FY(D)P rubric for that framework in the current semester. -->
+
+
+                    <!-- </p> -->
+                    <!-- <p><img src="assets/images/fyp_1.png" class="img-fluid" alt="Responsive image"></p> -->
+
+                    <!-- After selecting the framework, user can add, edit and view the marks of students. -->
+
+                    <!-- <p><img src="assets/images/fyp_2.png" class="img-fluid" alt="Responsive image"></p> -->
+
+
+
+                <!-- </section> -->
+
+
+                <section id="download_resources">
+                    <h2>Download Resources</h2>
+                    <p> User has to select a course in order to view the uploaded question papers.
+
+
+                    </p>
+                    <p><img src="assets/images/download_1.png" class="img-fluid" alt="Responsive image"></p>
+
+                    <p> The question paper can be downloaded by clicking on the download question paper link.
+
+
+                    </p>
+
+                    <p><img src="assets/images/download_question.png" class="img-fluid" alt="Responsive image"></p>
+
+
+
+
+                </section>
+                <section id="superadmin">
+                    <h2>Super Admin</h2>
+                </section>
+                <section id="add_program">
+                    <h2>Add a Program</h2>
+                    <p><img src="assets/images/add-program.png" class="img-fluid" alt="Responsive image"></p>
+                </section>
+                <section id="view_programs">
+                    <h2>View Programs</h2>
+                    <p><img src="assets/images/view-programs.png" class="img-fluid" alt="Responsive image"></p>
+                    <p><img src="assets/images/program-details.png" class="img-fluid" alt="Responsive image"></p>
+                </section>
+                <section id="#student">
+                    <h2>Super Admin</h2>
+                </section>
+                <section id="student_clo_report">
+                    <h2>CLO Report</h2>
+                    <p><img src="assets/images/student-clo-report.png" class="img-fluid" alt="Responsive image"></p>
+                </section>
+                <section id="student_plo_report">
+                    <h2>PLO Report</h2>
+                    <p><img src="assets/images/student-plo-report.png" class="img-fluid" alt="Responsive image"></p>
+                </section>
+            </div>
+
+        </div>
+        <!-- Content end -->
+
+        <!-- Footer
+        ============================ -->
+        <footer id="footer" class="section bg-dark footer-text-light">
+            <div class="container">
+                <ul class="social-icons social-icons-lg social-icons-muted justify-content-center mb-3">
+                    <li><a data-toggle="tooltip" href="https://twitter.com/harnishdesign/" target="_blank" title="" data-original-title="Twitter"><i class="fab fa-twitter"></i></a></li>
+                    <li><a data-toggle="tooltip" href="http://www.facebook.com/harnishdesign/" target="_blank" title="" data-original-title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a data-toggle="tooltip" href="http://www.dribbble.com/harnishdesign/" target="_blank" title="" data-original-title="Dribbble"><i class="fab fa-dribbble"></i></a></li>
+                    <li><a data-toggle="tooltip" href="http://www.github.com/" target="_blank" title="" data-original-title="GitHub"><i class="fab fa-github"></i></a></li>
+                </ul>
+                <p class="text-center">Copyright &copy; 2020 <a href="http://www.harnishdesign.net/idocs-one-page-documentation-html-template/">iDocs</a>. All Rights Reserved.</p>
+                <p class="text-2 text-center mb-0">Design &amp; Develop by <a class="btn-link" target="_blank" href="http://www.harnishdesign.net/">HarnishDesign</a>.</p>
+            </div>
+        </footer>
+        <!-- Footer end -->
+
+    </div>
+    <!-- Document Wrapper end -->
+
+    <!-- Back To Top -->
+    <a id="back-to-top" data-toggle="tooltip" title="Back to Top" href="javascript:void(0)"><i class="fa fa-chevron-up"></i></a>
+
+    <!-- JavaScript
+    ============================ -->
+    <script src="assets/vendor/jquery/jquery.min.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Highlight JS -->
+    <script src="assets/vendor/highlight.js/highlight.min.js"></script>
+    <!-- Easing -->
+    <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+    <!-- Magnific Popup -->
+    <script src="assets/vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <!-- Custom Script -->
+    <script src="assets/js/theme.js"></script>
+</body>
+</html>
